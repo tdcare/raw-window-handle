@@ -37,7 +37,7 @@ mod android;
 mod appkit;
 mod borrowed;
 mod haiku;
-mod ohos
+mod ohos;
 mod redox;
 mod uikit;
 mod unix;
