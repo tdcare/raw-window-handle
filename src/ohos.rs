@@ -7,16 +7,7 @@ use core::ptr;
 pub struct OHOSDisplayHandle {}
 
 impl OHOSDisplayHandle {
-    /// Create a new empty display handle.
-    ///
-    ///
-    /// # Example
-    ///
-    /// ```
-    /// # use raw_window_handle::OHOSDisplayHandle;
-    /// let handle = OHOSDisplayHandle::new();
-    /// ```
-    pub fn new() -> Self {
+     pub fn empty() -> Self {
         Self {}
     }
 }
